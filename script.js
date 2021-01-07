@@ -7,14 +7,14 @@ class Todo {
 
     renderList = (unorderList) => {
         let li = document.createElement('li');
-        li.className = 'listItem';
+        li.className = 'list-item';
         li.appendChild(document.createTextNode(this.data));
         unorderList.appendChild(li);
 
         let btn = document.createElement('INPUT');
         btn.setAttribute("type","submit");
         btn.setAttribute("Value","delete");
-        btn.className = 'btn1';
+        btn.className = 'delete-button';
         li.appendChild(btn);
         
         document.getElementById('item').value = null

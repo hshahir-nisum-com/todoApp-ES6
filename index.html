@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo App</title>
-    
-    <link rel="stylesheet" href="indexStyle.css">
-    
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
     <!-- header -->
 
-    <div class="main">  
-            <header class="header">
-                <span class="myHeading">Todo Application</span>
-            </header>    
+    <div class="main">
+        <header>
+            <span class="my-heading">Todo Application</span>
+        </header>
     </div>
 
     <!-- body of Html Document -->
 
     <div class="main-body">
-        <div class="main-body1">
-            <h2 class="h2">Add Items</h2>
-            <form action="JAVASCRIPT:void(0)" class="form" id="form">
-                <input type="text" class="text" placeholder="Write your work" id="item" >
-                <input type="submit" value="Submit" class="btn" id="button">
-            </form>
-            <hr class="line">
-            <h2 class="h2">Item List</h2>
-            <ul class="ul" id="unoder"></ul>
-        </div>
+        <h2 class="h2">Add Items</h2>
+        <form action="JAVASCRIPT:void(0)" class="form" id="form">
+            <input type="text" class="text" placeholder="Write your work" id="item">
+            <input type="submit" value="Submit" class="btn" id="button">
+        </form>
+        <hr class="line">
+        <h2 class="h2">Item List</h2>
+        <ul class="ul" id="unoder"></ul>
+
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
